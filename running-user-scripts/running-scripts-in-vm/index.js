@@ -3,7 +3,7 @@ const {Script, createContext} = require("vm");
 
 (async function () {
     const bundle = await rollup({
-        input: "./user-scripts/user-script.js"
+        input: "../user-scripts/user-script.js"
     });
     const { output } = await bundle.generate({
         format: "commonjs",
