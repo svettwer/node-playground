@@ -1,0 +1,17 @@
+{
+  "name": "editing-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node ./index.js",
+    "start:debug": "node --inspect ./index.js"
+  },
+  "dependencies": {
+    "@svgdotjs/svg.js": "^3.0.16",
+    "svgdom": "^0.1.8"
+  }
+}
