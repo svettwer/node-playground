@@ -1,0 +1,14 @@
+{
+  "name": "fastify",
+  "version": "1.0.0",
+  "description": "Compared with quarkus app built in: https://github.com/RedHat-Middleware-Workshops/quarkus-workshop-labs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^3.4.1"
+  }
+}
